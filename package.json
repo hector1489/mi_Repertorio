@@ -1,0 +1,27 @@
+{
+  "name": "mi_repertorio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "start": "node app.js",
+    "lint":"standard",
+    "lint:fix": "standard --fix",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Hector Gonzalez",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "16.3.1",
+    "express": "4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "3.0.1",
+    "standard": "17.1.0"
+  },
+  "engines": {
+    "node": "18.15.0"
+  }
+}
